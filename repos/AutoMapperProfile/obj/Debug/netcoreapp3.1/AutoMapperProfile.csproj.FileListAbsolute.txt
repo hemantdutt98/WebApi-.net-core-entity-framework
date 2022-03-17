@@ -1,0 +1,15 @@
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\bin\Debug\netcoreapp3.1\AutoMapperProfile.deps.json
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\bin\Debug\netcoreapp3.1\AutoMapperProfile.dll
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\bin\Debug\netcoreapp3.1\AutoMapperProfile.pdb
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\bin\Debug\netcoreapp3.1\Dtos.dll
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\bin\Debug\netcoreapp3.1\IRepository.dll
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\bin\Debug\netcoreapp3.1\Dtos.pdb
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\bin\Debug\netcoreapp3.1\IRepository.pdb
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\obj\Debug\netcoreapp3.1\AutoMapperProfile.csproj.AssemblyReference.cache
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\obj\Debug\netcoreapp3.1\AutoMapperProfile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\obj\Debug\netcoreapp3.1\AutoMapperProfile.AssemblyInfoInputs.cache
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\obj\Debug\netcoreapp3.1\AutoMapperProfile.AssemblyInfo.cs
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\obj\Debug\netcoreapp3.1\AutoMapperProfile.csproj.CoreCompileInputs.cache
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\obj\Debug\netcoreapp3.1\AutoMapperProfile.csproj.CopyComplete
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\obj\Debug\netcoreapp3.1\AutoMapperProfile.dll
+C:\Users\hemant.dutt\Downloads\repos\repos\AutoMapperProfile\obj\Debug\netcoreapp3.1\AutoMapperProfile.pdb
