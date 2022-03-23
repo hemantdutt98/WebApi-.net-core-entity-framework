@@ -26,7 +26,7 @@ namespace StudentApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
 
             var mapperConfig = new MapperConfiguration(mc =>
             {
@@ -42,8 +42,10 @@ namespace StudentApi
             services.AddTransient<IStudentManager, StudentManager>();
             services.AddTransient<IStudentMentorManager, StudentMentorManager>();
             services.AddTransient<IStudentMentorRepository, StudentMentorRepository>();
+            services.AddTransient<IProjectReleaseManager, ProjectReleaseManager>();
+            services.AddTransient<IProjectReleaseRepository, ProjectReleaseRepository>();
 
-            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

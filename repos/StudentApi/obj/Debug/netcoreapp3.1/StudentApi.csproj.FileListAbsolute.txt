@@ -214,3 +214,5 @@ C:\Users\hemant.dutt\Downloads\repos\repos\StudentApi\obj\Debug\netcoreapp3.1\St
 C:\Users\hemant.dutt\Downloads\repos\repos\StudentApi\obj\Debug\netcoreapp3.1\StudentApi.genruntimeconfig.cache
 C:\Users\hemant.dutt\Downloads\repos\repos\StudentApi\bin\Debug\netcoreapp3.1\AutoMapperProfile.dll
 C:\Users\hemant.dutt\Downloads\repos\repos\StudentApi\bin\Debug\netcoreapp3.1\AutoMapperProfile.pdb
+C:\Users\hemant.dutt\Downloads\repos\repos\StudentApi\bin\Debug\netcoreapp3.1\Atlassian.Jira.dll
+C:\Users\hemant.dutt\Downloads\repos\repos\StudentApi\bin\Debug\netcoreapp3.1\RestSharp.dll

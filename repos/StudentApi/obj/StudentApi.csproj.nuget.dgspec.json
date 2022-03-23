@@ -482,6 +482,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Atlassian.SDK": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[3.1.0, )"

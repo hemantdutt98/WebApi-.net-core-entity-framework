@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "StudentApi/1.0.0": {
         "dependencies": {
+          "Atlassian.SDK": "13.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "3.1.0",
           "AutoMapperProfile": "1.0.0",
           "IManager": "1.0.0",
@@ -318,6 +319,21 @@
         },
         "compile": {
           "StudentApi.dll": {}
+        }
+      },
+      "Atlassian.SDK/13.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "RestSharp": "106.12.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Atlassian.Jira.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Atlassian.Jira.dll": {}
         }
       },
       "AutoMapper/6.1.1": {
@@ -832,6 +848,17 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "RestSharp/106.12.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.12.0.0",
+            "fileVersion": "106.12.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -3218,6 +3245,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Atlassian.SDK/13.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6bmvMumb/WZdsLtAM+sJVh8tjr34CrkbuAAt+3GaVzf6dv7rRd0y5uT5MNRY8ZgxCgq3N9WT1fQM37fR+z7tdA==",
+      "path": "atlassian.sdk/13.0.0",
+      "hashPath": "atlassian.sdk.13.0.0.nupkg.sha512"
+    },
     "AutoMapper/6.1.1": {
       "type": "package",
       "serviceable": true,
@@ -3518,6 +3552,13 @@
       "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "RestSharp/106.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irOsQHe5nTJB0BKxGQnTX1dsgCPl5dLTxvL7gbl98JiFPiHMN4wpFyUG/66ZpaFCsIrPKh6XwozWXlwYe9JwYQ==",
+      "path": "restsharp/106.12.0",
+      "hashPath": "restsharp.106.12.0.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+LucU05lihlsMN6ihxKSIiEKN2cnGv7pRtjOzI1AfUJsWfEpbpADggwaFV4fvOOLPnwnyfePJQDT64Cg4P8JVw==",
+  "dgSpecHash": "CYA2VhTyKHKlDEkRzF0h8wtCyfy/lBQjYpoKar3tEIggKm8G2dVqi3yHpt7jqHNCsAZj/MVn6IXU7HvJ95ZGzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\hemant.dutt\\Downloads\\repos\\repos\\StudentApi\\StudentApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hemant.dutt\\.nuget\\packages\\atlassian.sdk\\13.0.0\\atlassian.sdk.13.0.0.nupkg.sha512",
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\automapper\\6.1.1\\automapper.6.1.1.nupkg.sha512",
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\3.1.0\\automapper.extensions.microsoft.dependencyinjection.3.1.0.nupkg.sha512",
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\microsoft.aspnet.cors\\5.0.0\\microsoft.aspnet.cors.5.0.0.nupkg.sha512",
@@ -47,6 +48,7 @@
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\hemant.dutt\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\hemant.dutt\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

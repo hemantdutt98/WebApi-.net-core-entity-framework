@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Atlassian.SDK/13.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3",
+          "RestSharp": "106.12.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Atlassian.Jira.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Atlassian.Jira.dll": {}
+        }
+      },
       "AutoMapper/6.1.1": {
         "type": "package",
         "dependencies": {
@@ -572,6 +585,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "RestSharp/106.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -1737,6 +1759,19 @@
     }
   },
   "libraries": {
+    "Atlassian.SDK/13.0.0": {
+      "sha512": "6bmvMumb/WZdsLtAM+sJVh8tjr34CrkbuAAt+3GaVzf6dv7rRd0y5uT5MNRY8ZgxCgq3N9WT1fQM37fR+z7tdA==",
+      "type": "package",
+      "path": "atlassian.sdk/13.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "atlassian.sdk.13.0.0.nupkg.sha512",
+        "atlassian.sdk.nuspec",
+        "lib/net452/Atlassian.Jira.dll",
+        "lib/netstandard2.0/Atlassian.Jira.dll"
+      ]
+    },
     "AutoMapper/6.1.1": {
       "sha512": "A+6PAblvzmkXPS20nFBQJvlNSW5oEdyfN5+cxT/Du35fTNyuP5pNDXT64KT/jBgxt7CPduOM0Y7oLnNe0E5IXg==",
       "type": "package",
@@ -2561,6 +2596,22 @@
         "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "RestSharp/106.12.0": {
+      "sha512": "irOsQHe5nTJB0BKxGQnTX1dsgCPl5dLTxvL7gbl98JiFPiHMN4wpFyUG/66ZpaFCsIrPKh6XwozWXlwYe9JwYQ==",
+      "type": "package",
+      "path": "restsharp/106.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.12.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -6111,6 +6162,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Atlassian.SDK >= 13.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 3.1.0",
       "AutoMapperProfile >= 1.0.0",
       "IManager >= 1.0.0",
@@ -6173,6 +6225,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Atlassian.SDK": {
+            "target": "Package",
+            "version": "[13.0.0, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[3.1.0, )"
